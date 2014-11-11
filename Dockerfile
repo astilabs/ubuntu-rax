@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Ross Kukulinski "ross@speakit.io"
 
-ENV LAST_UPDATED 11_09_AM_10_16_2014
+ENV LAST_UPDATED 11_11_2014
 
 ADD sources.list /etc/apt/
 RUN apt-get -qq update
