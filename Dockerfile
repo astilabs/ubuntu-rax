@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Ross Kukulinski "ross@getyodlr.com"
 
-ENV LAST_UPDATED 1_23_2015
+ENV LAST_UPDATED 1_26_2015
 
 RUN apt-get -qq update && \
   apt-get -yqq install apt-transport-https
